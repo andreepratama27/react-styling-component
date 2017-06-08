@@ -1,6 +1,7 @@
 import { render } from 'react-dom'
+import App from 'components/App'
 
-const Main = () => <h1>Hello.</h1>
+const Main = () => (<App />)
 
 render(
   <Main />,
