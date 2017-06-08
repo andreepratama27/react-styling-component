@@ -1,7 +1,8 @@
 import { render } from 'react-dom'
 import App from 'components/App'
+import Login from 'components/Login'
 
-const Main = () => (<App />)
+const Main = () => (<Login />)
 
 render(
   <Main />,
