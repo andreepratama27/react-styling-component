@@ -38,6 +38,10 @@ module.exports = {
 
   plugins: [
 
+    new webpack.ProvidePlugin({
+      'React': 'react'
+    }),
+    
     new htmlWebpack({
       template: path.join(__dirname, 'src', 'index.html'),
       filename: 'index.html',
